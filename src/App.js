@@ -12,17 +12,20 @@ import About from './components/About'
 import Footer from './components/Footer';
 function App() {
   return (
-<BrowserRouter>
-    <ContexNotes>
+    <>
+{/* <BrowserRouter> */}
+    {/* <ContexNotes> */}
     <Navbar />
-    <Routes>
-      <Route path="/" element={<Search />}></Route>
-       
-        <Route path="/about" element={<About />}></Route>
-    </Routes>
+    {/* <Routes> */}
+      {/* <Route path="/" element={<Search />}></Route> */}
+       <Search/>
+       <About/>
+        {/* <Route path="/about" element={<About />}></Route> */}
+    {/* </Routes> */}
    <Footer/>
-    </ContexNotes>
-  </BrowserRouter>
+    {/* // </ContexNotes> */}
+  {/* // </BrowserRouter> */}
+  </>
   );
 }
 
