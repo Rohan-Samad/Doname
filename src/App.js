@@ -14,7 +14,7 @@ function App() {
   return (
     <>
 {/* <BrowserRouter> */}
-    {/* <ContexNotes> */}
+    <ContexNotes>
     <Navbar />
     {/* <Routes> */}
       {/* <Route path="/" element={<Search />}></Route> */}
@@ -23,7 +23,7 @@ function App() {
         {/* <Route path="/about" element={<About />}></Route> */}
     {/* </Routes> */}
    <Footer/>
-    {/* // </ContexNotes> */}
+    </ContexNotes>
   {/* // </BrowserRouter> */}
   </>
   );

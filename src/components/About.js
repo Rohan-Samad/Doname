@@ -23,7 +23,7 @@ export default function About() {
             <div className="flex flex-wrap flex-row -mx-4 text-center">
                 <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style={{visibility: 'visible', animationDuration: 1+'s', animationName: 'fadeInUp'}}>
                    
-                    <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div className="py-8 px-12 mb-12 -z-10 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                         <div className="inline-block text-gray-900 mb-4">
                           
                             <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">

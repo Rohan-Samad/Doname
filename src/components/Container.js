@@ -3,7 +3,8 @@ import UserContex from '../state/UserContex'
 import Comp from './Comp'
 import Spinner from './Spinner'
 export default function Container() {
-    const i = useContext(UserContex)
+    const i = useContext(UserContex) || {results:[]}
+    console.log(i)
     console.log(typeof i.results)
     if(i.loading){
       console.log("in loading")
