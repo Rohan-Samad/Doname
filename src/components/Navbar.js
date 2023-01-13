@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 export default function Navbar() {
   const showNav=()=>{
 let menuBtns=document.getElementById('menuBtns')
@@ -17,13 +17,13 @@ menuBtns.classNameList.toggle('translate-x-0')
       {/* <!-- navbar --> */}
     <nav className="flex justify-between bg-gray-900 text-white w-screen">
       <div className="px-5 xl:px-12 py-2 flex w-full items-center">
-        <Link className="text-3xl hover:bg-cyan-500 p-2 rounded-lg font-bold font-heading" to="/">
+        <div className="text-3xl hover:bg-cyan-500 p-2 rounded-lg font-bold font-heading" to="/">
           {/* <!-- <img className="h-9" src="logo.png" alt="logo"> --> */}
           Doname
-        </Link>
+        </div>
         {/* <!-- Nav Links --> */}
         <ul className=" md:mx-6 px-5 mx-1 font-semibold font-heading ">
-          <li><Link className="hover:text-gray-200 hover:bg-cyan-500 p-2 rounded-lg" to="/about">About</Link></li>
+          {/* <li><Link className="hover:text-gray-200 hover:bg-cyan-500 p-2 rounded-lg" to="/about">About</Link></li> */}
           {/* <li><a className="hover:text-gray-200" href="#">Catagory</a></li>
           <li><a className="hover:text-gray-200" href="#">Collections</a></li>
           <li><a className="hover:text-gray-200" href="#">Contact Us</a></li> */}
